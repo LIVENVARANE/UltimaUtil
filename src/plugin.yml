@@ -1,0 +1,85 @@
+name: UltimaUtil
+
+version: 0.6
+
+main: fr.groupeultima.org.UltimaUtil
+
+description: Some cool extra adds.
+
+authors: [Liven, Thalrod]
+
+api-version: 1.14
+
+commands:
+  adminmode:
+    aliases: am
+    description: Switch between player and administrator mode.
+  getworld:
+    permission: op
+    description: Gives you your current world.
+  tphere:
+    aliases: s
+    description: TPhere, dawg.
+    permission: ultima.admin.tphere
+  kill:
+    aliases: suicide
+    description: Kills yourself or a specified player.
+    permission: op
+  sudo:
+    permission: op
+    description: Make another user perform a command. (Must add a "/" for commands.)
+  skull:
+    permission: ultima.builder.skull
+    description: Gives you a player head, berk.
+  fly:
+    permission: ultima.admin.fly
+    description: Toggles fly mode in whatever gamemode you are.
+  gmc:
+    permission: minecraft.command.gamemode
+    description: Switch you or a specified player to creative mode.
+  gms:
+    permission: minecraft.command.gamemode
+    description: Switch you or a specified player to survival mode.
+  gma:
+    permission: minecraft.command.gamemode
+    description: Switch you or a specified player to adventure mode.
+  gmsp:
+    permission: minecraft.command.gamemode
+    description: Switch you or a specified player to spectator mode.
+  speed:
+    permission: ultima.admin.speed
+    description: (ONLY WORKS WITH 0, 1 AND DEFAULT) Makes you fly/run faaaaaaaaaaaaaaast!
+  crash:
+    permission: op
+    description: Make a player crash (and also rage by the way)
+  toggledownfall:
+    permission: op
+    description: Old toggledownfall command.
+  ping:
+    description: Get your ping.
+  rules:
+    description: Read the rules, uhuh.
+    aliases: regles
+  permission:
+    description: Permissions manager.
+    permission: op
+  invsee:
+    description: Look at a player inventory like a sovietic spy.
+    permission: ultima.admin.invsee
+  x:
+    description: Clears your inventory
+    permission: op
+    aliases: clear
+  time:
+    permission: op
+    description: Change world time.
+  day:
+    permission: op
+    description: Change your world to daytime.
+  night:
+    permission: op
+    description: Change your world time to night.
+  clearchat:
+    description: Make the chat quite.. blank uh
+    permission: ultima.admin.clearchat
+    aliases: cc

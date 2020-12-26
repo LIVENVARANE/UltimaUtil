@@ -1,0 +1,3 @@
+Settings:
+  AdminMode:
+    RemoveOnLog: 1 #1 = yes / other = no
